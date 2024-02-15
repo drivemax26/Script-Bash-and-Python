@@ -4,13 +4,13 @@ import smtplib
 
 host = "localhost"
 user = "olegfadeev"
-password = "8265655f"
+password = "pass"
 database = "SKELAR"
 
 
-gmail_sender = "drivemax26@gmail.com"
-gmail_password = "gujy owqg isuk pcnv"
-gmail_receiver = "drivemax26@gmail.com"
+gmail_sender = "test@gmail.com"
+gmail_password = "pass"
+gmail_receiver = "test6@gmail.com"
 
 connection = mysql.connector.connect(
     host=host, user=user, password=password, database=database
